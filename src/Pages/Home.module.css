@@ -1,0 +1,532 @@
+/* 1024x768 */
+
+.header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+
+}
+.headerInfoText{
+  width: 40%;
+  margin-top: 15%;
+  font-weight: bold;
+}
+
+.headerInfoText h1{
+  color:#1fafdb;
+  font-size: 45px;
+  text-align: left;
+  margin-left: 5%;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: bold;
+}
+
+.headerInfoText p{
+  font-size: 25px;
+  color:#60717d;
+  text-align: left;
+  margin-left: 5%;
+
+
+
+}
+
+.btnContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.btn{
+  color: #fff;
+  background-color:#292a2c;
+  font-size: 1em;
+  padding: 2%;
+  border-radius: 24px;
+  float: left;
+  margin-top: 3%;
+  margin-left: 7%;
+  border: none;
+}
+.headerInfoImage{
+  width: 60%;
+}
+
+.imgBanner{
+  width: 110%;
+  height: 560px;
+  float: right;
+}
+
+
+.start{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  color: #fff;
+  margin-bottom: 10%;
+}
+
+.Titles{
+  margin-top: 3%;
+  font-size: 35px;
+  color: #3d3f42;
+}
+.TitlesColor{
+  color: #FF914D;
+}
+
+.start p{
+  font-size: 14px;
+}
+.startCard{
+  background-color: #292a2c;
+  height:400px;
+  width: 1000px !important;
+  border: solid 1px #292a2c;
+  border-radius: 70px;
+
+  display: flex;
+  flex-direction: row;
+  padding: 9%;
+  justify-content: space-between;
+}
+
+
+.imgPet{
+  height: 60px;
+border-radius: 14px;
+}
+
+.cardSection1{
+  width: 25%;
+  font-size: 1em;
+
+}
+
+.cardSection1 h1{
+  font-size: 1.5em;
+}
+/* .cardSection1{
+
+} */
+.section2{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+  }
+  
+  .imageSection2{
+  width: 50%;
+  }
+  
+  .TextSection2{
+    width: 50%;
+    padding: 5%;
+  
+  }
+  .TextSection2 h1{
+    color:#1fafdb;
+    margin-top: 20%;
+  }
+  
+  .TextSection2 p{
+    font-size: 1em !important;
+  }
+  
+  .btn_section2{
+    background-color: #1fafdb;
+    color: #fff;
+    padding: 2%;
+    border-radius: 14px;
+    width: 300px;
+    border: none;
+    font-size: 1em;
+    margin-top: 5%;
+  
+  }
+  
+  .btn_section2:hover{
+    background-color: #fff;
+    color:#1fafdb;
+    border: solid 1px #1fafdb;
+    padding: 2%;
+    cursor: pointer;
+    font-size: 1em;
+  
+  }
+
+  .bannerContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #1fafdb;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 5%;
+    margin-top: 5%;
+  
+  }
+  .Banner{
+    width: 25%;
+  }
+
+  .section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
+  }
+  .section3Img{
+    width: 50%;
+  }
+  
+  
+  .section3Container{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .section3Cards{
+    display: flex;
+    margin: 15%;
+  }
+  .section3Cards h2{
+    font-size: 1em;
+  }
+  .image{
+    height: 500px;
+    width: 500px;
+  }
+  
+  .cardIcon{
+    height: 90px;
+  }
+
+  .ContatoContainer{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2em;
+    margin-bottom:10%;
+  }
+
+  .ContatoContainer h1{
+    color: #1fafdb;
+    font-size: 1em;
+  }
+
+  .ContatoIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10%;
+    font-size: 22px;
+  }
+
+  .icon{
+    height: 60px;
+  }
+
+  .ContatoItens{
+    margin-right: 10%;
+  }
+  .ContatoItens p{
+    font-size: 0.5em;
+  }
+
+.ContatoText{
+  width: 40%;
+  margin-top: 15%;
+}
+
+.ContatoTitle{
+  font-size: 1.5em;
+}
+
+.ContatoSubTitle{
+  font-size: 0.5em;
+}
+
+
+  .form{
+    background-color: #1fafdb;
+    color: #fff;
+    width: 50%;
+    padding: 5%;
+    border-radius: 14px;
+    margin-bottom: 10%;
+    height: 600px;
+    font-size: 0.5em;
+
+  }
+  .form input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin-bottom:5% ;
+    font-size: 0.5em;
+  }
+
+  .form textarea{
+    min-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+
+
+  }
+
+  .btn_Contato{
+    background-color: #Fff;
+    color: #1fafdb;
+    padding: 2%;
+    border-radius: 14px;
+    width: 400px;
+    border: none;
+    font-size: 1em;
+    margin-top: 5%;
+
+  }
+ 
+@media (min-width: 1920px) and (max-width: 2560px)  {
+  .header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+
+}
+.headerInfoText{
+    width: 35%;
+    margin-top:20%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+.headerInfoText h1{
+    color:#1fafdb;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 7%;
+}
+
+.headerInfoText p{
+    font-size: 32px;
+    color:#60717d;
+    text-align: left;
+    margin-left: 7%;
+
+
+
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btn{
+    color: #fff;
+    background-color: #292a2c;
+    font-size: 1.8em;
+    padding: 2.5%;
+    border-radius: 34px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+.headerInfoImage{
+    width: 65%;
+}
+
+.imgBanner{
+    width: 110%;
+    height: 860px;
+}
+
+
+.start{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  color: #fff;
+  margin-bottom: 10%;
+}
+
+.Titles{
+  margin-top: 3%;
+  font-size: 50px;
+  color: #3d3f42;
+}
+.TitlesColor{
+  color: #FF914D;
+}
+
+.start p{
+  font-size: 24px;
+}
+.startCard{
+  background-color: #292a2c;
+  height:500px;
+  width: 1700px !important;
+  border: solid 1px #292a2c;
+  border-radius: 70px;
+
+  display: flex;
+  flex-direction: row;
+  padding: 8%;
+  justify-content: space-between;
+}
+
+
+.imgPet{
+  height: 90px;
+border-radius: 14px;
+}
+
+
+.section2{
+display: flex;
+flex-direction: row;
+}
+
+.imageSection2{
+width: 50%;
+}
+
+.TextSection2{
+  width: 50%;
+
+}
+.TextSection2 h1{
+  color:#1fafdb;
+  margin-top: 20%;
+}
+
+.TextSection2 p{
+  font-size: 1.6em !important;
+}
+
+.btn_section2{
+  background-color: #1fafdb;
+  color: #fff;
+  padding: 2%;
+  border-radius: 14px;
+  width: 300px;
+  border: none;
+  font-size: 1.3em;
+  margin-top: 5%;
+
+}
+
+.btn_section2:hover{
+  background-color: #fff;
+  color:#1fafdb;
+  border: solid 1px #1fafdb;
+  padding: 2%;
+  cursor: pointer;
+  font-size: 1.3em;
+
+}
+
+.bannerContainer{
+  display: flex;
+  flex-direction: row;
+  background-color: #1fafdb;
+  color: #fff;
+  font-size: 3em;
+  padding: 5%;
+
+}
+.Banner{
+  width: 25%;
+}
+
+.section3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5%;
+}
+.section3 h2{
+  font-size: 1.5em;
+}
+.section3Img{
+  width: 50%;
+}
+.image{
+  height: auto;
+  width: auto;
+}
+
+.section3Container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.section3Cards{
+  display: flex;
+  margin: 15%;
+}
+
+.cardIcon{
+  height: 120px;
+  border-radius: 15%;
+  padding: 5%;
+}
+
+.ContatoTitle{
+  font-size: 1.5em;
+}
+
+.ContatoSubTitle{
+  font-size: 0.8em;
+}
+
+.ContatoItens{
+  display: flex;
+}
+.ContatoItens p{
+  margin-top: 8%;
+  font-size: 1em;
+}
+
+.ContatoText{
+  margin-top: 7%;
+}
+
+
+.form{
+  background-color: #1fafdb;
+  color: #fff;
+  width: 40%;
+  padding: 5%;
+  border-radius: 14px;
+  margin-bottom: 10%;
+  height: 800px;
+}
+.form input{
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin-bottom:5% ;
+}
+
+.form textarea{
+  min-height: 200px;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+
+
+}
+
+
+}
